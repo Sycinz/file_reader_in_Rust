@@ -20,7 +20,7 @@ fn main() {
     // Converting file_path to String type instead of Result<PathBuf, Error>
     let file_path = match file_path {
         Ok(path_buf) => path_buf.to_string_lossy().to_string(),
-        Err(_err) => panic!()
+        Err(_err) => panic!("PROGRAM PANICKEEEEEED!!!!!")
     };
 
     // Opening the file, else returning error
